@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as pp
 
-data = pd.read_csv("C:/Users/admin/Downloads/mc.csv")
+data = pd.read_csv("C:/Users/admin/Downloads/mc.csv") #change the path of the csv file accordingly
 #print(data)
 
 x = data.iloc[:,[-2,-1]].values
